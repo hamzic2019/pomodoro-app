@@ -62,7 +62,7 @@ body {
 }
 
 .myButton:hover {
-  background-color: #5cbf2a;
+  background-color: #e63173;
 }
 
 .myButton:active {
@@ -95,7 +95,7 @@ body {
   min-height: 250px;
   height: 250px;
   max-height: 500px;
-  background-color: #00CFA7;
+  background-color:rgba(0, 207, 167, 0.85);
 }
 
 .secounds {
@@ -103,7 +103,7 @@ body {
   min-height: 250px;
   height: 450px;
   max-height: 500px;
-  background-color:#F3983B;
+  background-color:rgba(243, 152, 59, 0.85);
 }
 
 .time-box h1 {
