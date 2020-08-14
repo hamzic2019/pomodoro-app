@@ -1,57 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sriracha&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #1b262c;
+*, *::before, *::after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-.timer {
-  width: 60%;
-  height: 450px;
-  margin: 100px auto 0px auto;
-  background: #ECF0F1;
-  border-radius: 15px;
-  -webkit-box-shadow: -6px 6px 5px -6px rgba(0,0,0,0.75);
-  -moz-box-shadow: -6px 6px 5px -6px rgba(0,0,0,0.75);
-  box-shadow: -6px 6px 5px -6px rgba(0,0,0,0.75);
-}
-
-.header {
-  position: relative;
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 15px 15px 0px 0px;
-}
-
-.header h1 {
-  color:white;
-  font-size: 35px;
-  text-shadow: -0.05px 0.05px 1px black;
-  display: inline-block;
-  margin: 25px 25px 10px 25px;
-  margin-top: 100px!important;
-
-}
-
-.header p {
-  color:#076cb8;
-  margin-left: 25px;
-  display: inline-block;
-  font-weight: 800;
-  font-size: 20px;
-}
-
-.play-button {
-  height: 85px;
-  position: absolute;
-  right: 50px;
-  bottom: -20%;
-
-}
-
-.header {
-  background-color: #279AF1;
-  height: 200px;
-  width: 100%;
-}
