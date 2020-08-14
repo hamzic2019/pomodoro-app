@@ -93,7 +93,7 @@ body {
 .minutes {
   width: 250px;
   min-height: 250px;
-  height: 250px;
+  height: 250px; /* OVDJE PROMJENITI*/
   max-height: 500px;
   background-color:rgba(0, 207, 167, 0.85);
 }
@@ -101,7 +101,7 @@ body {
 .secounds {
   width: 250px;
   min-height: 250px;
-  height: 450px;
+  height: 250px; max height 450
   max-height: 500px;
   background-color:rgba(243, 152, 59, 0.85);
 }
