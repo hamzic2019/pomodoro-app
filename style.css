@@ -71,7 +71,7 @@ body {
 }
 
 .display {
-  background-color: red;
+  /* background-color: red; */
   display:flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -79,10 +79,40 @@ body {
 }
 
 .time-box {
-  width: 250px;
-  height: 100px;
-  background-color: royalblue;
+  /* width: 250px;
+  height: 400px; */
+  /* background-color: royalblue; */
   margin:1px;
   text-align: center;
-  padding:0 0;
+  padding:10px 50px;
+  color:white;
+  font-family: 'Raleway',sans-serif;
+  position: relative;
+}
+
+.minutes {
+  width: 250px;
+  min-height: 250px;
+  height: 250px;
+  max-height: 500px;
+  background-color: #00CFA7;
+}
+
+.secounds {
+  width: 250px;
+  min-height: 250px;
+  height: 450px;
+  max-height: 500px;
+  background-color:#F3983B;
+}
+
+.time-box h1 {
+  position: absolute;
+  bottom: 5%;
+}
+
+.time-box p {
+  font-size: 150px;
+  position: absolute;
+  bottom: 25%;
 }
